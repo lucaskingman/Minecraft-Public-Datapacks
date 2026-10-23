@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "description": "Allows players to pick their chat name, nametag, and waypoint colors",
+    "min_format": [
+      107,
+      1
+    ],
+    "max_format": 107
+  }
+}

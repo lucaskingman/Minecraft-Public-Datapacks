@@ -1,0 +1,241 @@
+{
+    "type": "minecraft:multi_action",
+    "title": "Player Color",
+    "external_title": {
+        "text": "Player Color",
+        "color": "aqua"
+    },
+    "body": [
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:brush"
+            },
+            "show_decorations": false,
+            "show_tooltip": false
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "text": "Select your color! The color you select will be used for your chat name, nametag, and waypoint!"
+            }
+        }
+    ],
+    "inputs": [],
+    "after_action": "close",
+    "columns": 2,
+    "actions": [
+        {
+            "label": {
+                "text": "Dark Red",
+                "color": "dark_red",
+                "bold": true
+            },
+            "width": 100,
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "trigger playerColor set 2"
+            }
+        },
+        {
+            "label": {
+                "text": "Red",
+                "color": "red",
+                "bold": true
+            },
+            "width": 100,
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "trigger playerColor set 3"
+            }
+        },
+        {
+            "label": {
+                "text": "Gold",
+                "color": "gold",
+                "bold": true
+            },
+            "width": 100,
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "trigger playerColor set 4"
+            }
+        },
+        {
+            "label": {
+                "text": "Yellow",
+                "color": "yellow",
+                "bold": true
+            },
+            "width": 100,
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "trigger playerColor set 5"
+            }
+        },
+        {
+            "label": {
+                "text": "Dark Green",
+                "color": "dark_green",
+                "bold": true
+            },
+            "width": 100,
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "trigger playerColor set 6"
+            }
+        },
+        {
+            "label": {
+                "text": "Green",
+                "color": "green",
+                "bold": true
+            },
+            "width": 100,
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "trigger playerColor set 7"
+            }
+        },
+        {
+            "label": {
+                "text": "Aqua",
+                "color": "aqua",
+                "bold": true
+            },
+            "width": 100,
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "trigger playerColor set 8"
+            }
+        },
+        {
+            "label": {
+                "text": "Dark Aqua",
+                "color": "dark_aqua",
+                "bold": true
+            },
+            "width": 100,
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "trigger playerColor set 9"
+            }
+        },
+        {
+            "label": {
+                "text": "Dark Blue",
+                "color": "dark_blue",
+                "bold": true
+            },
+            "width": 100,
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "trigger playerColor set 10"
+            }
+        },
+        {
+            "label": {
+                "text": "Blue",
+                "color": "blue",
+                "bold": true
+            },
+            "width": 100,
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "trigger playerColor set 11"
+            }
+        },
+        {
+            "label": {
+                "text": "Light Purple",
+                "color": "light_purple",
+                "bold": true
+            },
+            "width": 100,
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "trigger playerColor set 12"
+            }
+        },
+        {
+            "label": {
+                "text": "Dark Purple",
+                "color": "dark_purple",
+                "bold": true
+            },
+            "width": 100,
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "trigger playerColor set 13"
+            }
+        },
+        {
+            "label": {
+                "text": "White",
+                "color": "white",
+                "bold": true
+            },
+            "width": 100,
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "trigger playerColor set 14"
+            }
+        },
+        {
+            "label": {
+                "text": "Gray",
+                "color": "gray",
+                "bold": true
+            },
+            "width": 100,
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "trigger playerColor set 15"
+            }
+        },
+        {
+            "label": {
+                "text": "Dark Gray",
+                "color": "dark_gray",
+                "bold": true
+            },
+            "width": 100,
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "trigger playerColor set 16"
+            }
+        },
+        {
+            "label": {
+                "text": "Black",
+                "color": "black",
+                "bold": true,
+                "shadow_color": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "width": 100,
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "trigger playerColor set 17"
+            }
+        },
+        {
+            "label": {
+                "text": "None",
+                "bold": true,
+                "strikethrough": true
+            },
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "trigger playerColor set 100"
+            }
+        }
+    ],
+    "exit_action": {
+        "label": "Cancel"
+    }
+}
