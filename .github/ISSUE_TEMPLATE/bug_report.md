@@ -2,14 +2,16 @@
 name: Bug report
 about: Create a report to for a specific datapack
 title: ''
-labels: Bug, Feature Request
+labels: Bug
 assignees: lucaskingman
 
 ---
 
 Please give the information below!
 
-- Datapack Name & Version
-- Minecraft Version
-- Description of Bug
-- Expected Behavior
+- Datapack Name & Version:
+- Minecraft Version:
+- Description of Bug:
+- Expected Behavior:
+
+Also feel free to add any additional information like screenshots or device platform!
