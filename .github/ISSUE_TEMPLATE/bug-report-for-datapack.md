@@ -1,8 +1,8 @@
 ---
-name: Bug report
+name: Bug Report for Datapack
 about: Create a report to for a specific Datapack
 title: ''
-labels: Bug
+labels: Bug, Feature Request
 assignees: lucaskingman
 
 ---
