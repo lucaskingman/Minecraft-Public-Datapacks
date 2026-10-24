@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Create a report to for a specific datapack
+about: Create a report to for a specific Datapack
 title: ''
 labels: Bug
 assignees: lucaskingman
